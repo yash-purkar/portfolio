@@ -7,7 +7,7 @@ import HomeData from './Home/HomeData'
 const Home = () => {
   return (
     <>
-      <Header img={img} txt=" The" htxt="Web Developer" />
+      <Header img={img} txt="Yash Purkar The" htxt="Web Developer" />
 
       {/* <Sections heading="Technologies" txt="I'm familier with HTML5, CSS3, Git, JavaScript, NodeJs, ReactJs, and Web Hosting." type="ow" wantBtn="no" />
 
@@ -18,7 +18,7 @@ const Home = () => {
       {
         HomeData.map((currElem, indx) => {
           const { heading, txt, type, wantBtn, btnText } = currElem;
-          return <Sections heading={heading} txt={txt} type={type} wantBtn={wantBtn} btnText={btnText} />
+          return <Sections heading={heading} txt={txt} type={type} wantBtn={wantBtn} btnText={btnText} key={indx} />
         })
       }
 

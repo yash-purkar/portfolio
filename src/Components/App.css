@@ -143,3 +143,31 @@ hr {
   border-bottom-left-radius: 2rem;
   background-color: var(--off-white);
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-primary);
+  padding: 2rem 1rem;
+  color: var(--white);
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.social-links {
+  padding-inline-start: 0px;
+}
+
+.social-links .link {
+  color: var(--white);
+}
+
+.footer .footer-heading {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}

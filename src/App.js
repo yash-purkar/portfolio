@@ -4,6 +4,7 @@ import Projects from './Components/Projects';
 import Blogs from './Components/Blogs';
 import Navbar from './Components/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='projects' element={<Projects />} />
           <Route path="blogs" element={<Blogs />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
