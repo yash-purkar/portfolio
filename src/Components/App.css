@@ -92,3 +92,18 @@ hr {
 .navigation .link:hover {
   font-weight: bold;
 }
+
+/* header */
+.hero {
+  text-align: center;
+}
+.hero .hero-img {
+  max-width: 350px;
+  margin-top: 4rem;
+}
+
+.hero-heading {
+  color: var(--gray);
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
