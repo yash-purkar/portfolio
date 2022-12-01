@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = ({ img, txt, htxt }) => {
   return (
-    <header class="hero">
-      <img class="hero-img" src={img} alt="hero img" />
-      <h1 class="hero-heading">
+    <header className="hero">
+      <img className="hero-img" src={img} alt="hero img" />
+      <h1 className="hero-heading">
         {txt}
         <span style={{ color: "#7e22ce" }} > {htxt}</span>
       </h1>
