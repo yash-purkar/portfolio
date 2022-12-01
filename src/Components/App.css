@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Mulish&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif; */
+
+:root {
+  --color-primary: #7e22ce;
+  --white: #fff;
+  --gray: #64748b;
+  --off-white: #f0f9ff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+/* container */
+.container {
+  padding: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* links */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 0.5em;
+}
+
+.link-primary {
+  background-color: var(--color-primary);
+  color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.link-secondary {
+  border: 1.5px solid var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 0.5rem;
+}
+
+.hover-primary:hover {
+  font-weight: bold;
+}
+.hover-secondary:hover {
+  font-weight: bold;
+}
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+  background-color: var(--color-primary);
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+.navigation .link {
+  color: var(--white);
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  color: var(--white);
+}
+
+.active {
+  font-weight: bold;
+  border: 1px solid var(--white);
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+}
+.navigation .link:hover {
+  font-weight: bold;
+}
