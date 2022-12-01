@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const Sections = ({ heading, txt, type, wantBtn }) => {
+const Sections = ({ heading, txt, type, wantBtn, btnText }) => {
   const [cls, setCls] = useState();
   const [btn, setBtn] = useState();
 
@@ -25,7 +25,7 @@ const Sections = ({ heading, txt, type, wantBtn }) => {
 
         {wantBtn === "yes" ?
           <div className="btn">
-            <a className={btn} href="projects.html">See Projects</a>
+            <a className={btn} href="#">{btnText}</a>
           </div> : ""}
 
       </div>
