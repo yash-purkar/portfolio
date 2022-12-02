@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Header'
 import img from "./images/project_completed.svg"
+import ProjSec from "./Projects/proj_section"
+import projData from "./Projects/ProjData"
 
 const Projects = () => {
+  // We use UseEffect here bcz if I click on see projects button I was going to the mid of the project component.
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Header img={img} txt="See My" htxt="Projects" />
-      <div>Projects</div>
+      {
+        projData.map((currElem, indx) => {
+          const { heading, date, text, liveLink, code } = currElem;
+          return <ProjSec heading={heading} date={date} text={text} liveLink={liveLink} code={code} />
+        })}
+
     </>
   )
 }

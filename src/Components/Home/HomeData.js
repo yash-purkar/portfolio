@@ -12,14 +12,16 @@ const data = [
     txt: "I like to showcase my work and thus, you can see my projects hosted online.",
     type: "w",
     wantBtn: "yes",
-    btnText: "See Projects"
+    btnText: "See Projects",
+    to: "/projects"
   },
   {
     heading: "Blogs",
     txt: "I'm also working on some technical and non technical blogs. I like to document my journey of learning.",
     type: "ow",
     wantBtn: "yes",
-    btnText: "Read Blogs"
+    btnText: "Read Blogs",
+    to: "/blogs"
   }
 ];
 

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Components/App.css"
 import Home from './Components/Home'
 import Projects from './Components/Projects';
@@ -8,6 +9,7 @@ import Footer from "./Components/Footer";
 
 
 function App() {
+
   return (
     <>
       <BrowserRouter>

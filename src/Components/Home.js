@@ -17,8 +17,8 @@ const Home = () => {
 
       {
         HomeData.map((currElem, indx) => {
-          const { heading, txt, type, wantBtn, btnText } = currElem;
-          return <Sections heading={heading} txt={txt} type={type} wantBtn={wantBtn} btnText={btnText} key={indx} />
+          const { heading, txt, type, wantBtn, btnText, to } = currElem;
+          return <Sections heading={heading} txt={txt} type={type} wantBtn={wantBtn} btnText={btnText} to={to} key={indx} />
         })
       }
 

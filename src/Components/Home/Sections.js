@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom';
 
-const Sections = ({ heading, txt, type, wantBtn, btnText }) => {
+const Sections = ({ heading, txt, type, wantBtn, btnText, to }) => {
   const [cls, setCls] = useState();
   const [btn, setBtn] = useState();
 
@@ -25,7 +26,7 @@ const Sections = ({ heading, txt, type, wantBtn, btnText }) => {
 
         {wantBtn === "yes" ?
           <div className="btn">
-            <a className={btn} href="#">{btnText}</a>
+            <NavLink className={btn} to={to}>{btnText}</NavLink>
           </div> : ""}
 
       </div>
