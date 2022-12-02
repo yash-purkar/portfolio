@@ -172,3 +172,33 @@ hr {
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* blog page */
+.blog_container {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-position: unset;
+}
+
+.wrap_blogs {
+  padding: 0px;
+  margin-block-end: 60px;
+}
+
+.blog_white {
+  text-align: center;
+  padding: 35px 10px;
+  background-color: var(--white);
+}
+
+.blog_off_white {
+  text-align: center;
+  padding: 35px 10px;
+  background-color: var(--off-white);
+}
+
+.blog_white:hover,
+.blog_off_white:hover {
+  box-shadow: 1px 3px 5px black;
+  cursor: pointer;
+}
