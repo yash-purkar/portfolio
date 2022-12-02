@@ -9,7 +9,7 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
           <div className="container container-center padding-md">
             <h1>{heading}</h1>
             <small>{date}</small>
-            <p>
+            <p style={{ marginBottom: "20px" }}>
               {text}
             </p>
             <a

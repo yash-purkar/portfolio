@@ -1,9 +1,16 @@
 
 const data = [
   {
+    heading: "To-Do App",
+    date: "November 2022",
+    text: "To-Do List project is an application specially built to keep track of errands or tasks that need to be done.",
+    liveLink: "https://yashpurkar-todo-app.netlify.app",
+    code: "https://github.com/yash-purkar/todo_app"
+  },
+  {
     heading: "Weather App",
     date: "November 2022",
-    text: "This is a Weather App built with ReactJS. You can see weather of your city.",
+    text: "A Weather App built with ReactJS. You can see weather of your city.",
     liveLink: "https://yashpurkar-weather-app.netlify.app",
     code: "https://github.com/yash-purkar/weather-app"
   },
