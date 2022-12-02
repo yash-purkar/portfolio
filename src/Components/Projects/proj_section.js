@@ -15,11 +15,13 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
             <a
               className="link link-primary hover-primary"
               href={liveLink}
-            >Play Now</a
+              target="_blank"
+            >Live Link</a
             >
             <a
               className="link link-secondary hover-secondary"
               href={code}
+              target="_blank"
             >Source Code</a
             >
           </div>
