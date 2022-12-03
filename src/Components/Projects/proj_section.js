@@ -18,6 +18,7 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
               target="_blank"
             >Live Link</a
             >
+            <span className='break'></span>
             <a
               className="link link-secondary hover-secondary"
               href={code}
