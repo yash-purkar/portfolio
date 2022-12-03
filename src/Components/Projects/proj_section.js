@@ -3,7 +3,7 @@ import React from 'react'
 const proj_section = ({ heading, date, text, liveLink, code }) => {
   return (
     <div className="container container-center">
-      <ol reversed className="list-non-bullet">
+      <ol reversed className="list-non-bullet proj">
 
         <li className="project proj-padd">
           <div className="container container-center padding-md">

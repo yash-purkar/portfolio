@@ -150,6 +150,9 @@ hr {
   background-color: var(--off-white);
 }
 
+.proj {
+  padding: 0px;
+}
 /* Footer */
 
 .footer {
