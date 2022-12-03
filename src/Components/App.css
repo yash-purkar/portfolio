@@ -15,6 +15,11 @@ body {
   padding: 0px;
 }
 
+p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
 hr {
   margin-top: 2rem;
 }
@@ -185,19 +190,12 @@ hr {
   margin-block-end: 60px;
 }
 
-.blog_white {
-  text-align: center;
-  padding: 35px 10px;
-  background-color: var(--white);
-}
-
 .blog_off_white {
   text-align: center;
   padding: 35px 10px;
   background-color: var(--off-white);
 }
 
-.blog_white:hover,
 .blog_off_white:hover {
   box-shadow: 1px 3px 5px black;
   cursor: pointer;

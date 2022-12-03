@@ -3,7 +3,7 @@ const data = [
   {
     heading: "To-Do App",
     date: "November 2022",
-    text: "To-Do List project is an application specially built to keep track of errands or tasks that need to be done.",
+    text: "To-Do List project is an application specially built to keep track of tasks that need to be done.",
     liveLink: "https://yashpurkar-todo-app.netlify.app",
     code: "https://github.com/yash-purkar/todo_app"
   },

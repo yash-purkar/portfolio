@@ -4,7 +4,7 @@ const blogSection = ({ cls, heading, date, text }) => {
   return (
     <ul className='list-non-bullet wrap_blogs'>
       <li className="blog_container" >
-        <div className={`container container-center ${cls} `} >
+        <div className={`container container-center  blog_off_white`} >
           <h2>{heading}</h2>
           <span>{date}</span>
           <p>{text}</p>
