@@ -15,7 +15,7 @@ const Blogs = () => {
       <Header img={img} txt="Read My" htxt="Blogs" />
       {
         BlogData.map((currElem, indx) => {
-          const { heading, date, text, cls } = currElem;
+          const { heading, date, text } = currElem;
           return <Blogsection heading={heading} date={date} text={text} />
         })
       }
