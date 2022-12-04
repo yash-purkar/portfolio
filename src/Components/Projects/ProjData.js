@@ -1,6 +1,13 @@
 
 const data = [
   {
+    heading: "Stocks Profit OR Loss",
+    date: "December 2022",
+    text: "Profit or loss app made using Vanilla JS, to check are you in profit or loss.",
+    liveLink: "https://stocks-profit-or-loss-calculator.netlify.app/",
+    code: "https://github.com/yash-purkar/stocks_profit_or_loss_calculator/blob/master/index.js"
+  },
+  {
     heading: "Is Your Birthday Lucky?",
     date: "December 2022",
     text: "To check is your birthday lucky or not made using Vanilla JS.",
