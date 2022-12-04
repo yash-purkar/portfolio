@@ -1,9 +1,23 @@
 
 const data = [
   {
+    heading: "Is Your Birthday Lucky?",
+    date: "December 2022",
+    text: "To check is your birthday lucky or not made using Vanilla JS.",
+    liveLink: "https://yash-purkar-is-your-birthday-lucky.netlify.app/",
+    code: "https://github.com/yash-purkar/IsYourBirthdayLucky"
+  },
+  {
+    heading: "Cash Register Manager",
+    date: "December 2022",
+    text: "Cash Register App which helps the user by telling how can they return the change with minimum number of notes.",
+    liveLink: "https://yashpurkar-cash-register.netlify.app/",
+    code: "https://github.com/yash-purkar/cash-register"
+  },
+  {
     heading: "To-Do App",
     date: "November 2022",
-    text: "To-Do List project is an application specially built to keep track of tasks that need to be done.",
+    text: "To-Do List project is an application specially built to keep track of tasks that need to be done. Built with ReactJs",
     liveLink: "https://yashpurkar-todo-app.netlify.app",
     code: "https://github.com/yash-purkar/todo_app"
   },
