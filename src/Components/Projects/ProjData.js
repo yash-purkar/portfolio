@@ -1,5 +1,6 @@
 
 const data = [
+
   {
     heading: "Stocks Profit OR Loss",
     date: "December 2022",
@@ -20,6 +21,13 @@ const data = [
     text: "Cash Register App which helps the user by telling how can they return the change with minimum number of notes.",
     liveLink: "https://yashpurkar-cash-register.netlify.app/",
     code: "https://github.com/yash-purkar/cash-register"
+  },
+  {
+    heading: "Minion Speak",
+    date: "November 2022",
+    text: "Minion App to translate your text into minion, built with Vanilla JS",
+    liveLink: "https://yashpurkar-minion-speak.netlify.app/",
+    code: "https://github.com/yash-purkar/Minion-App"
   },
   {
     heading: "To-Do App",
