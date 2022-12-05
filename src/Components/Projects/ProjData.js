@@ -12,7 +12,7 @@ const data = [
     heading: "Fun With Triangles",
     date: "December 2022",
     text: "Fun with a triangle, we can check is triangle is forming or not and also check hypoteneus of triangle.And We can also check area of triangle, and play a quiz about triangles",
-    liveLink: "https://capable-faun-86147a.netlify.app/",
+    liveLink: "https://yash-fun-with-triangle.netlify.app/",
     code: "https://github.com/yash-purkar/funWithTriangles"
   },
   {
