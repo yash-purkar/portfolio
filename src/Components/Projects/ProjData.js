@@ -9,6 +9,13 @@ const data = [
     code: "https://github.com/yash-purkar/stocks_profit_or_loss_calculator/blob/master/index.js"
   },
   {
+    heading: "Fun With Triangles",
+    date: "December 2022",
+    text: "Fun with a triangle, we can check is triangle is forming or not and also check hypoteneus of triangle.And We can also check area of triangle, and play a quiz about triangles",
+    liveLink: "https://capable-faun-86147a.netlify.app/",
+    code: "https://github.com/yash-purkar/funWithTriangles"
+  },
+  {
     heading: "Is Your Birthday Lucky?",
     date: "December 2022",
     text: "To check is your birthday lucky or not made using Vanilla JS.",

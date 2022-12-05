@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Sections from './Home/Sections'
 import Header from './Header'
 import img from './images/feeling-proud.svg'
@@ -5,6 +6,9 @@ import HomeData from './Home/HomeData'
 
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Portfolio | Home';
+  }, []);
   return (
     <>
       <Header img={img} txt="Yash Purkar The" htxt="Web Developer" />

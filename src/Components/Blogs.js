@@ -8,7 +8,8 @@ const Blogs = () => {
 
   // We use UseEffect here bcz if I click on see Blogs button  (i.e is in home page) I was going to the mid of the Blog component.
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'Portfolio | Blogs';
   }, [])
   return (
     <>

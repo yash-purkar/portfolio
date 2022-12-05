@@ -7,7 +7,8 @@ import projData from "./Projects/ProjData"
 const Projects = () => {
   // We use UseEffect here bcz if I click on see projects button (i.e is in home page) I was going to the mid of the project component.
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'Portfolio | Projects';
   }, [])
   return (
     <>
