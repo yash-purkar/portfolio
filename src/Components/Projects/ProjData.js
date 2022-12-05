@@ -23,6 +23,20 @@ const data = [
     code: "https://github.com/yash-purkar/cash-register"
   },
   {
+    heading: "Emoji Interpreter",
+    date: "December 2022",
+    text: "Emoji Interpreter to check the meaning of Emoji.",
+    liveLink: "https://yash-emoji-interpreter.netlify.app",
+    code: "https://github.com/yash-purkar/emoji-interpreter"
+  },
+  {
+    heading: "Movie Recommendation App",
+    date: "December 2022",
+    text: "Here I have share my favourite movies on particular topic.",
+    liveLink: "https://codesandbox.io/s/movie-recommendation-app-vctqrx?file=/src/App.js",
+    code: "https://codesandbox.io/s/movie-recommendation-app-vctqrx?file=/src/App.js"
+  },
+  {
     heading: "Minion Speak",
     date: "November 2022",
     text: "Minion App to translate your text into minion, built with Vanilla JS",
