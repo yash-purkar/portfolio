@@ -9,6 +9,13 @@ const data = [
     code: "https://github.com/yash-purkar/stocks_profit_or_loss_calculator/blob/master/index.js"
   },
   {
+    heading: "Is Your Birthday Palindrome",
+    date: "December 2022",
+    text: "Here you can check is your birthday palindrom or not.",
+    liveLink: "https://yash-is-birthday-palindrome.netlify.app/",
+    code: "https://github.com/yash-purkar/isBirthdayPalindrome"
+  },
+  {
     heading: "Fun With Triangles",
     date: "December 2022",
     text: "Fun with a triangle, we can check is triangle is forming or not and also check hypoteneus of triangle.And We can also check area of triangle, and play a quiz about triangles",
