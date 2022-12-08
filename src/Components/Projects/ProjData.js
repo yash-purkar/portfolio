@@ -51,6 +51,13 @@ const data = [
     code: "https://codesandbox.io/s/movie-recommendation-app-vctqrx?file=/src/App.js"
   },
   {
+    heading: "Jar Jar Binks Translator",
+    date: "December 2022",
+    text: "This is funny translator app , you can put your english sentence it will convert that into Jar Jar Binks.",
+    liveLink: "https://yash-jar-jar-binks.netlify.app/",
+    code: "https://github.com/yash-purkar/jar-jar-binks-translator"
+  },
+  {
     heading: "Minion Speak",
     date: "November 2022",
     text: "Minion App to translate your text into minion, built with Vanilla JS",
