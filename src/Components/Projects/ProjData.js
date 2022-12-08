@@ -47,8 +47,8 @@ const data = [
     heading: "Movie Recommendation App",
     date: "December 2022",
     text: "Here I have share my favourite movies on particular topic.",
-    liveLink: "https://codesandbox.io/s/movie-recommendation-app-vctqrx?file=/src/App.js",
-    code: "https://codesandbox.io/s/movie-recommendation-app-vctqrx?file=/src/App.js"
+    liveLink: "https://movie-recommondation.netlify.app/",
+    code: "https://github.com/yash-purkar/movie-recommondation"
   },
   {
     heading: "Jar Jar Binks Translator",
