@@ -204,6 +204,25 @@ hr {
   cursor: pointer;
 }
 
+.blog_btn {
+  color: #fff;
+  background-color: #7e22ce;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 1rem;
+  padding: 8px;
+  border: none;
+  text-decoration: none;
+}
+
+.blog_btn:hover {
+  background-color: #f0f9ff;
+  color: #7e22ce;
+  border: 1px solid #7e22ce;
+}
+
+/* *** */
+
 @media only screen and (max-width: 600px) {
   .break {
     margin-bottom: 25px;
