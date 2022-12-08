@@ -54,8 +54,8 @@ const data = [
     heading: "Minion Speak",
     date: "November 2022",
     text: "Minion App to translate your text into minion, built with Vanilla JS",
-    liveLink: "https://yashpurkar-minion-speak.netlify.app/",
-    code: "https://github.com/yash-purkar/Minion-App"
+    liveLink: "https://yash-banana-translator.netlify.app/",
+    code: "https://github.com/yash-purkar/banana-translator"
   },
   {
     heading: "To-Do App",
