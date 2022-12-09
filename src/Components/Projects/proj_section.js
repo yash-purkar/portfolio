@@ -15,6 +15,7 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
             <a
               className="link link-primary hover-primary"
               href={liveLink}
+              rel="noreferrer"
               target="_blank"
             >Live Link</a
             >
@@ -22,6 +23,7 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
             <a
               className="link link-secondary hover-secondary"
               href={code}
+              rel="noreferrer"
               target="_blank"
             >Source Code</a
             >

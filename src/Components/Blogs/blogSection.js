@@ -10,7 +10,7 @@ const blogSection = ({ cls, heading, date, text, blogUrl }) => {
           <h2>{heading}</h2>
           <span>{date}</span>
           <p>{text}</p>
-          <a className='blog_btn' href={blogUrl}>Read More</a>
+          <a className='blog_btn' href={blogUrl} rel="noreferrer" target="_blank" >Read More</a>
         </div>
       </li>
     </ul>
