@@ -12,7 +12,7 @@ const data = [
     heading: "Is Your Birthday Palindrome",
     date: "December 2022",
     text: "Here you can check is your birthday palindrom or not.",
-    liveLink: "https://yash-is-birthday-palindrome.netlify.app/",
+    liveLink: "https://is-birthday-palindrome-or-not.netlify.app/",
     code: "https://github.com/yash-purkar/isBirthdayPalindrome"
   },
   {
@@ -58,7 +58,7 @@ const data = [
     code: "https://github.com/yash-purkar/jar-jar-binks-translator"
   },
   {
-    heading: "Minion Speak",
+    heading: "Banana Talk",
     date: "November 2022",
     text: "Minion App to translate your text into minion, built with Vanilla JS",
     liveLink: "https://yash-banana-translator.netlify.app/",
