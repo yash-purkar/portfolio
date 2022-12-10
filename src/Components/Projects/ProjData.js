@@ -3,7 +3,7 @@ const data = [
   {
     heading: "Mark15: Blogs",
     date: "December 2022",
-    text: "Here Is my blogs.",
+    text: "Here Is my Portfolio and this I have blog page.",
     btnNo: 1
   },
   {

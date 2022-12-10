@@ -16,7 +16,7 @@ const proj_section = ({ heading, date, text, liveLink, code, btnNo }) => {
             {
               btnNo === 1 ? <a
                 className="link link-primary hover-primary"
-                href="https://yashpurkar-portfolio.netlify.app/blogs"
+                href="https://yashpurkar-portfolio.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
               >Read More</a>
