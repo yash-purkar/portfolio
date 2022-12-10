@@ -1,6 +1,7 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
-const proj_section = ({ heading, date, text, liveLink, code }) => {
+const proj_section = ({ heading, date, text, liveLink, code, btnNo }) => {
   return (
     <div className="container container-center">
       <ol reversed className="list-non-bullet proj">
@@ -12,21 +13,35 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
             <p style={{ marginBottom: "20px" }}>
               {text}
             </p>
-            <a
-              className="link link-primary hover-primary"
-              href={liveLink}
-              rel="noreferrer"
-              target="_blank"
-            >Live Link</a
-            >
-            <span className='break'></span>
-            <a
-              className="link link-secondary hover-secondary"
-              href={code}
-              rel="noreferrer"
-              target="_blank"
-            >Source Code</a
-            >
+
+            {
+              btnNo === 1 ? <NavLink
+                className="link link-primary hover-primary"
+                to="/blogs"
+                rel="noreferrer"
+                target="_blank"
+              >Read Blogs</NavLink>
+                :
+                <div className="btns">
+                  <a
+                    className="link link-primary hover-primary"
+                    href={liveLink}
+                    rel="noreferrer"
+                    target="_blank"
+                  >Live Link</a>
+                  <span className='break'></span>
+
+                  <a
+                    className="link link-secondary hover-secondary"
+                    href={code}
+                    rel="noreferrer"
+                    target="_blank">Source Code</a>
+                </div>
+            }
+
+
+
+
           </div>
         </li>
 
@@ -35,4 +50,4 @@ const proj_section = ({ heading, date, text, liveLink, code }) => {
   )
 }
 
-export default proj_section
+export default proj_section;

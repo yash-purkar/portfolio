@@ -15,8 +15,8 @@ const Projects = () => {
       <Header img={img} txt="See My" htxt="Projects" />
       {
         projData.map((currElem, indx) => {
-          const { heading, date, text, liveLink, code } = currElem;
-          return <ProjSec heading={heading} date={date} text={text} liveLink={liveLink} code={code} />
+          const { heading, date, text, liveLink, code, btnNo } = currElem;
+          return <ProjSec heading={heading} date={date} text={text} liveLink={liveLink} code={code} btnNo={btnNo} />
         })}
 
     </>
