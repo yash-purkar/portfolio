@@ -19,7 +19,7 @@ const proj_section = ({ heading, date, text, liveLink, code, btnNo }) => {
                 href="https://yashpurkar-portfolio.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
-              >Read More</a>
+              >Read blogs</a>
                 :
                 <div className="btns">
                   <a
