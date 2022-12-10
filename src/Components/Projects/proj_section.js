@@ -1,5 +1,4 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
+import React from 'react';
 
 const proj_section = ({ heading, date, text, liveLink, code, btnNo }) => {
   return (
@@ -15,12 +14,12 @@ const proj_section = ({ heading, date, text, liveLink, code, btnNo }) => {
             </p>
 
             {
-              btnNo === 1 ? <NavLink
+              btnNo === 1 ? <a
                 className="link link-primary hover-primary"
-                to="/blogs"
+                href="https://yashpurkar-portfolio.netlify.app//blogs"
                 rel="noreferrer"
                 target="_blank"
-              >Read Blogs</NavLink>
+              >Read More</a>
                 :
                 <div className="btns">
                   <a
