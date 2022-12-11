@@ -10,7 +10,7 @@ const data = [
   {
     heading: "Mark15: Blogs",
     date: "December 2022",
-    text: "Here Is my Portfolio and in this I have blog page.",
+    text: "Read My Blogs Here.",
     btnNo: 1
   },
   {
@@ -80,8 +80,8 @@ const data = [
   {
     heading: "Mark5: Portfolio blogs page",
     date: "November 2022",
-    text: "Read My Blogs Here.",
-    liveLink: "/blogs"
+    text: "Here Is my Portfolio and in this I have blog page.",
+    liveLink: "https://yashpurkar-portfolio.netlify.app/"
     ,
     code: "https://github.com/yash-purkar/portfolio/tree/master/src/Components/Blogs"
   },
