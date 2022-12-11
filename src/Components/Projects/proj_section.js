@@ -18,8 +18,6 @@ const proj_section = ({ heading, date, text, liveLink, code, btnNo }) => {
               btnNo === 1 ? <NavLink
                 className="link link-primary hover-primary"
                 to="/blogs"
-              // rel="noreferrer"
-              // target="_blank"
               >Read blogs</NavLink>
                 :
                 <div className="btns">

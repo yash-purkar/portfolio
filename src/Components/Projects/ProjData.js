@@ -80,7 +80,7 @@ const data = [
   {
     heading: "Mark5: Portfolio blogs page",
     date: "November 2022",
-    text: "Here is the portfolio, and this I have made a  blog page.",
+    text: "Read My Blogs Here.",
     liveLink: "/blogs"
     ,
     code: "https://github.com/yash-purkar/portfolio/tree/master/src/Components/Blogs"
