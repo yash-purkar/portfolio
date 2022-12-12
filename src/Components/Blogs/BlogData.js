@@ -1,18 +1,12 @@
 const data = [
   {
-    heading: "undefined",
+    heading: "undefined and not defined",
     date: "Nov 2022",
-    text: "It's a JavaScript keyword that has a special meaning. Everything which gets a space in memory it contains undefined until we assign that memory space.",
-    cls: "blog_off_white",
-    blogUrl: "https://link.medium.com/HrlKaML1Avb"
-  },
-  {
-    heading: "not defined",
-    date: "Nov 2022",
-    text: "In JavaScript, It's one of the reference error that JavaScript is thrown when someone tries to access the variable which is not inside our code or the memory.",
+    text: "undefined: It's a JavaScript keyword that has a special meaning. Everything which gets a space in memory it contains undefined until we assign that memory space.  ",
     cls: "blog_white",
-    blogUrl: "https://link.medium.com/Km5Lmkb2Avb"
+    blogUrl: "https://yashpurkar.hashnode.dev/undefined-not-defined"
   },
+
 
   {
     heading: "Scope in JS",
