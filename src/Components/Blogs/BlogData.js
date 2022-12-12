@@ -26,7 +26,7 @@ const data = [
     date: "Oct 2022",
     text: "Hoisting is a phenomena in JavaScript, by which we can access the variables and functions even before initialization.",
     cls: "blog_white",
-    blogUrl: "https://link.medium.com/6xeIAve2Avb"
+    blogUrl: "https://yashpurkar.hashnode.dev/hoisting-in-javascript-1"
   }
 ];
 
