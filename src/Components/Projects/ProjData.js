@@ -7,10 +7,10 @@ const data = [
     code: "https://github.com/yash-purkar/yashpurkar-markOne"
   },
   {
-    heading: "Mark2: Are You Cricket Fan?",
+    heading: "Mark2: Do You Know About Computer?",
     date: "Octomber 2022",
-    text: "A CLI app built with NodeJs.You can send this to friend to check them interest in cricket.",
-    liveLink: "https://replit.com/@YashPurkar1/markTwo?embed=1&output=1",
+    text: "A CLI app built with NodeJs.You can send this to friend,  to check is he know about computer?.",
+    liveLink: "https://replit.com/@YashPurkar1/marktwo-practice?embed=1&output=1",
     code: "https://github.com/yash-purkar/yashpurkar-markTwo"
   },
   {
