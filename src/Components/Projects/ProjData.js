@@ -17,8 +17,8 @@ const data = [
     heading: "Mark3: CLI Github Link",
     date: "November 2022",
     text: "Here is the CLI project uploaded on github",
-    liveLink: "https://replit.com/@YashPurkar1/markTwo?embed=1&output=1",
-    code: "https://github.com/yash-purkar/yashpurkar-markTwo"
+    liveLink: "https://replit.com/@YashPurkar1/marktwo-practice?embed=1&output=1",
+    code: "https://github.com/yash-purkar/markTwoNew"
   },
   {
     heading: "Mark4: Portfolio",
