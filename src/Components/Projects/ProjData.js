@@ -11,7 +11,7 @@ const data = [
     date: "Octomber 2022",
     text: "A CLI app built with NodeJs.You can send this to friends, to check are they know about computer?.",
     liveLink: "https://replit.com/@YashPurkar1/marktwo-practice?embed=1&output=1",
-    code: "https://github.com/yash-purkar/yashpurkar-markTwo"
+    code: "https://github.com/yash-purkar/markTwoNew"
   },
   {
     heading: "Mark3: CLI Github Link",
