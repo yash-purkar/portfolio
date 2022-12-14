@@ -2,7 +2,7 @@
 const data = [
   {
     heading: "Technologies",
-    txt: "I'm familier with HTML5, CSS3, Git, JavaScript, ReactJs, and Web Hosting. My Portfolio has been also made using ReactJS.",
+    txt: "I'm familier with HTML5, CSS3, Git, JavaScript, ReactJs, NodeJS, chalk and Web Hosting. My Portfolio has been also made using ReactJS.",
     type: "ow",
     wantBtn: "no"
   },
