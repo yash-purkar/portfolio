@@ -6,7 +6,6 @@ const Sections = ({ heading, txt, type, wantBtn, btnText, to }) => {
   const [btn, setBtn] = useState();
 
   useEffect(() => {
-
     if (type === "ow") {
       setCls("section ow");
       setBtn("link link-secondary")
@@ -14,7 +13,7 @@ const Sections = ({ heading, txt, type, wantBtn, btnText, to }) => {
       setCls("section")
       setBtn("link link-primary")
     }
-  })
+  }, []);
 
   return (
     <div><section className={cls}>
